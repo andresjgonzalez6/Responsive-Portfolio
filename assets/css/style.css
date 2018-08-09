@@ -215,3 +215,44 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+/* HW2 Media Queries*/
+
+@media screen and (max-width: 980px) {
+  body{background:red;
+  }
+  #main-container{
+    max-width: 650px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body{background:blue;
+  }
+  .auth-image{
+    width: 300px;
+  }
+  #main-container{
+    max-width: 750px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  body{background:green;
+  }
+  header{position: static;
+  }
+  .auth-image{
+    width: 560px;
+  }
+  #main-container{
+    min-width: 624px;
+  }
+  .work{
+    min-width: 565px;
+    
+    
+  }
+}
+

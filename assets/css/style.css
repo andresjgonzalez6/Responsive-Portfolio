@@ -219,8 +219,6 @@ input[type=submit] {
 /* HW2 Media Queries*/
 
 @media screen and (max-width: 980px) {
-  body{background:red;
-  }
   #masthead{
     width: 920px;
   }
@@ -237,8 +235,6 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 768px) {
-  body{background:blue;
-  }
   #logo{
     margin-left:30px;
   }
@@ -257,21 +253,19 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 640px) {
-  body{background:green;
-  }
   #masthead{
-    width: 624px;
+    width: 625px;
   }
   #logo{
-    width:624px;
+    width:640px;
     margin:0px;
     padding:0px;
   }
   nav{
-    float: none;
+    float: left;
     text-align: center;
-    height:150px;
-    padding-top:105px;
+    padding-left: 160px;
+    padding-bottom: 25px;
   }
   .auth-image{
     width: 560px;

@@ -221,6 +221,15 @@ input[type=submit] {
 @media screen and (max-width: 980px) {
   body{background:red;
   }
+  #masthead{
+    width: 920px;
+  }
+  nav{
+    margin-right:50px;
+  }
+  #logo{
+    margin-left:50px;
+  }
   #main-container{
     max-width: 650px;
     float: left;
@@ -229,6 +238,15 @@ input[type=submit] {
 
 @media screen and (max-width: 768px) {
   body{background:blue;
+  }
+  #logo{
+    margin-left:30px;
+  }
+  #masthead{
+    width: 750px;
+  }
+  nav{
+    margin-right:50px;
   }
   .auth-image{
     width: 300px;
@@ -241,18 +259,29 @@ input[type=submit] {
 @media screen and (max-width: 640px) {
   body{background:green;
   }
-  header{position: static;
+  #masthead{
+    width: 624px;
+  }
+  #logo{
+    width:624px;
+    margin:0px;
+    padding:0px;
+  }
+  nav{
+    float: none;
+    text-align: center;
+    height:150px;
+    padding-top:105px;
   }
   .auth-image{
     width: 560px;
   }
   #main-container{
     min-width: 624px;
+    margin-top:80px;
   }
   .work{
     min-width: 565px;
-    
-    
   }
 }
 
